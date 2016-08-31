@@ -5,4 +5,4 @@ def get_workspace(featureClass):
     else:
         arcpy.env.workspace = featureClass.path
     return arcpy.env.workspace
-get_workspace(descFC)
+get_workspace(featureClass)
