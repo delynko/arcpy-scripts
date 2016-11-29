@@ -1,3 +1,6 @@
+import arcpy
+import os
+
 def get_workspace(featureClass):
     catalogPath = os.path.dirname(featureClass.catalogPath)
     if arcpy.Describe(catalogPath).dataType == 'FeatureDataset':
