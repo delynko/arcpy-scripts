@@ -9,3 +9,5 @@ def get_workspace(featureClass):
     else:
         arcpy.env.workspace = descFC.path
     return arcpy.env.workspace
+
+get_workspace("Feature Class")
