@@ -7,7 +7,7 @@ gpxFolder = r"C:/gpx_folder/"
 #Output Folder
 destinationFolder = r"Q:/dest_folder/"
 
-#Folder containing the GPX files. ONLY HAVE GPx FILES IN THIS FOLDER! Remove the .zip file if it's here
+#Folder containing the GPX files. ONLY HAVE GPX FILES IN THIS FOLDER! Remove the .zip file if it's here
 fcs = os.listdir(gpxFolder)
 
 for fc in fcs:
