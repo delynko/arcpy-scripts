@@ -5,8 +5,11 @@ import csv
 
 arcpy.env.overwriteOutput = True
 
+# set path of mxd inside parentheses
 mxd = arcpy.mapping.MapDocument(r'.mxd')
 lyrs = arcpy.mapping.ListLayers(mxd)
+
+# set path of csv file to be created
 csvFile = r".csv"
 
 lyrName = []
